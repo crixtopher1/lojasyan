@@ -474,6 +474,40 @@ footer {
   margin-top: auto;
 }
 
+/* Quitar subrayado de enlaces específicos */
+.no-underline {
+  text-decoration: none !important;
+}
+
+/* O para todos los enlaces en footer-section */
+.footer-section a {
+  text-decoration: none;
+}
+
+/* Opcional: Cambiar color al pasar el mouse */
+.footer-section a:hover {
+  text-decoration: underline; /* Si quieres que aparezca al hover */
+  color: #FFD700; /* Color dorado como otros elementos */
+}
+
+/* Estilo para el enlace de teléfono en el footer */
+.footer-section a[title="WhatsApp"] {
+  color: white !important; /* Color blanco */
+  text-decoration: none !important; /* Quita el subrayado */
+  transition: color 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Cambio de color al pasar el mouse */
+.footer-section a[title="WhatsApp"]:hover {
+  color: #FFD700 !important; /* Amarillo dorado al hover */
+}
+
+/* Estilo para el párrafo dentro del enlace (opcional) */
+.footer-section a[title="WhatsApp"] p {
+  display: inline; /* Mejor alineación */
+  margin: 0; /* Elimina márgenes por defecto */
+}
+
 .footer-content {
   display: flex;
   justify-content: space-around;
