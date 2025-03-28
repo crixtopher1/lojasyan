@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lojas Yan</title>
+  <link rel="icon" type="image/x-icon" href="img/ico.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html" title="Voltar à página principal">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Lojas Yan</span>
+          </a>
+        </div>
+    
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Buscar produtos...">
+          <button id="search-button" aria-label="Buscar">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    
+      <nav class="main-nav">
+        <button class="menu-toggle" aria-label="Abrir menú">
+          <span class="hamburger"></span>
+        </button>
+        
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link">
+              <i class="fas fa-mobile-alt"></i> Celulares
+              <i class="fas fa-chevron-down dropdown-icon"></i>
+            </a>
+            <ul class="dropdown">
+              <li><a href="celularesnovo.html"><i class="fas fa-box-open"></i> Novos</a></li>
+              <li><a href="usados.html"><i class="fas fa-sync-alt"></i> Usados</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#" class="menu-link"><i class="fas fa-laptop"></i> Eletrônicos</a></li>
+          <li class="menu-item"><a href="#" class="menu-link"><i class="fas fa-headphones"></i> Acessórios</a></li>
+          <li class="menu-item"><a href="#" class="menu-link"><i class="fas fa-info-circle"></i> Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/img1.png" alt="Oferta 1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img2.png" alt="Oferta 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img3.jpg" alt="Oferta 3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img4.png" alt="Oferta 3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img5.png" alt="Oferta 3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img6.jpg" alt="Oferta 3">
+            </div>
+          </div>
+          <button class="carousel-control prev">&#10094;</button>
+          <button class="carousel-control next">&#10095;</button>
+          <div class="carousel-indicators"></div>
+        </div>
+      </section>
+
+      <!-- Sección de productos simples -->
+      <section class="products products-simple products-with-watermark">
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="img/pd30.jpg" alt="Carregador Rápido Kaidi" class="product-image">
+            <h3>Carregador Rápido De Tomada Com fio Kaidi 20W de Potência</h3>
+            <p class="product-description">Carregadores TURBO KAIDI com 20W de Potência</p>
+            <div class="product-rating">★★★★☆</div>
+            <p class="product-price">R$45</p>
+            <a href="https://shopee.com.br/Carregador-R%C3%A1pido-De-Tomada-Com-fio-Kaidi-20W-de-Pot%C3%AAncia-i.1226956761.22597977463" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/pd31.jpg" alt="Carregador Portátil Kaidi" class="product-image">
+            <h3>Carregador Portátil De Alta Potência 10000mah Kaidi Kd-951</h3>
+            <p class="product-description">O produto é uma fonte de alimentação móvel</p>
+            <div class="product-rating">★★★★☆</div>
+            <p class="product-price">R$122,80</p>
+            <a href="https://shopee.com.br/Carregador-Port%C3%A1til-De-Alta-Pot%C3%AAncia-10000mah-Kaidi-Kd-951-i.1226956761.22593551427" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p32.jpg" alt="Fone Bluetooth Esportivo" class="product-image">
+            <h3>Fone de Ouvido Sem Fio Bluetooth Esportivo</h3>
+            <p class="product-description">Fone de Ouvido Sem Fio Bluetooth Esportivo Ergonômico Hmaston Rs49</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$89,40</p>
+            <a href="https://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Bluetooth-Esportivo-Design-Pendurado-Na-Orelha-Ergon%C3%B4mico-Hmaston-Rs49-i.1226956761.19397923063?sp_atk=c5112578-c270-4101-8473-e42063300c9a" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p33.jpg" alt="Cabo Carregamento Rápido" class="product-image">
+            <h3>Cabo De Carregamento Rápido</h3>
+            <p class="product-description">Cabo De Carregamento Rápido Kaidi IOS/ Tipo C/ Micro</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$89,40</p>
+            <a href="https://shopee.com.br/Cabo-De-Carregamento-R%C3%A1pido-Kaidi-IOS-Tipo-C-Micro-i.1226956761.23197912011?sp_atk=c2ad7b42-3bd5-4d0d-ae2a-684eb885a075" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p36.jpg" alt="Mouse Óptico Sem Fio" class="product-image">
+            <h3>Mouse Óptico 2.4g Sem Fio</h3>
+            <p class="product-description">Mouse Óptico 2.4g Sem Fio Sha08 Hmaston Bluetooth Wireless</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$25,57</p>
+            <a href="https://www.mercadolivre.com.br/mouse-optico-24g-sem-fio-sha08-hmaston-bluetooth-wireless-cor-preto/p/MLB39931979?pdp_filters=seller_id%3A2264068678#polycard_client=search-nordic&searchVariation=MLB39931979&wid=MLB3995281309&position=3&search_layout=grid&type=product&tracking_id=e7624413-5507-455d-97ba-3505f6a437b2&sid=search" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p37.jpg" alt="Caixa Som Bluetooth" class="product-image">
+            <h3>Caixa Som Bluetooth Karaokê</h3>
+            <p class="product-description">Caixa Som Bluetooth Karaokê Microfone Luz Led Sem Fio Mx04</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$119,90</p>
+            <a href="https://produto.mercadolivre.com.br/MLB-3994040263-caixa-som-bluetooth-karaok-microfone-luz-led-sem-fio-mx04-_JM?searchVariation=183061571964#polycard_client=search-nordic&searchVariation=183061571964&position=8&search_layout=grid&type=item&tracking_id=500f2b38-aff3-4d13-bce7-efc6b618b1ac" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p38.jpg" alt="Teclado Sem Fio" class="product-image">
+            <h3>Teclado Sem Fio Wireless Pequeno Jp101</h3>
+            <p class="product-description">Windows Phone, Ios e Android Funciona com 2 pilhas AAA (Não Inclusas)</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$55,95</p>
+            <a href="https://produto.mercadolivre.com.br/MLB-5307778956-teclado-sem-fio-wireless-pequeno-jp101-_JM?searchVariation=183061681706#polycard_client=search-nordic&searchVariation=183061681706&position=7&search_layout=grid&type=item&tracking_id=7965dc51-9738-40d1-9ca3-9bd5d522141d" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p39.jpg" alt="Lâmpada Musical" class="product-image">
+            <h3>Lampada Musical Caixa Som</h3>
+            <p class="product-description">Lampada Musical Caixa Som Bluetooth Led Com Controle E27</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$26,90</p>
+            <a href="https://produto.mercadolivre.com.br/MLB-5307827326-lampada-musical-caixa-som-bluetooth-led-com-controle-e27-_JM#polycard_client=search-nordic&position=22&search_layout=grid&type=item&tracking_id=a400605d-8415-4fbf-bbb8-2fc18ff6fb8e" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p34.jpg" alt="Fone H'maston" class="product-image">
+            <h3>Fone De Ouvido H'maston EJ-S8</h3>
+            <p class="product-description">Fone De Ouvido H'maston EJ-S8 P2 Com Microfone Preto</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$12,90</p>
+            <a href="https://shopee.com.br/Fone-De-Ouvido-H'maston-EJ-S8-P2-Com-Microfone-Preto-i.1226956761.20697921268?sp_atk=8689867a-498c-4df4-8626-a5dcfaf2fd12" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p41.jpg" alt="Kit Teclado e Mouse" class="product-image">
+            <h3>Kit De Teclado E Mouse</h3>
+            <p class="product-description">Kit De Teclado E Mouse Sem Fio Jp103 Hmaston Usb</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$103,90</p>
+            <a href="https://www.mercadolivre.com.br/mouse-optico-24g-sem-fio-sha08-hmaston-bluetooth-wireless-cor-preto/p/MLB39931979?pdp_filters=seller_id%3A2264068678#polycard_client=search-nordic&searchVariation=MLB39931979&wid=MLB3995281309&position=3&search_layout=grid&type=product&tracking_id=e7624413-5507-455d-97ba-3505f6a437b2&sid=search" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p43.jpg" alt="Fones Bluetooth H'maston" class="product-image">
+            <h3>Fones De Ouvido Bluetooth</h3>
+            <p class="product-description">Fones De Ouvido Bluetooth H'maston Ly-123 - Sem Fio</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$97,90</p>
+            <a href="https://produto.mercadolivre.com.br/MLB-5305974690-fones-de-ouvido-bluetooth-hmaston-ly-123-sem-fio-_JM?searchVariation=187103358029#polycard_client=search-nordic&searchVariation=187103358029&position=21&search_layout=grid&type=item&tracking_id=e39ad830-2a49-4d89-bc01-ef65d69f5354" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p44.jpg" alt="Fonte USB-C iPhone" class="product-image">
+            <h3>Fonte Usb-c iPhone</h3>
+            <p class="product-description">Fonte Usb-c iPhone 11/12/13/14/15/16 35w</p>
+            <div class="product-rating">★★★★★</div>
+            <p class="product-price">R$39,90</p>
+            <a href="https://produto.mercadolivre.com.br/MLB-5305779148-fonte-usb-c-iphone-111213141516-35w-_JM#polycard_client=search-nordic&position=20&search_layout=grid&type=item&tracking_id=e39ad830-2a49-4d89-bc01-ef65d69f5354" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+
+          <div class="product-card">
+            <img src="img/p45.jpg" alt="Kit Películas iPhone" class="product-image">
+            <h3>Kit 3 Películas</h3>
+            <p class="product-description">Kit 3 Películas para Celulares Iphone 6/ 7 / 8/ 6 Plus/ 7 Plus/ 8 plus</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">R$19,68</p>
+            <a href="https://shopee.com.br/Kit-3-Pel%C3%ADculas-para-Celulares-Iphone-6-7-8-6-Plus-7-Plus-8-plus-i.1226956761.18297948029" target="_blank" class="add-to-cart">Comprar</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Siga-nos nas redes sociais</h3>
+          <div class="social-icons">
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/share/12JcG8d8MA1/" target="_blank" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/SUAPAGINA" target="_blank" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.mercadolivre.com.br/pagina/yaneletroeletronicos?item_id=MLB3994854695&category_id=MLB12953&seller_id=2264068678&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=eshop" target="_blank" title="MercadoLibre">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="https://shopee.com.br/yan_eletroeletronicos?categoryId=100013&entryPoint=ShopByPDP&itemId=22597977463" target="_blank" title="Shopee">
+              <i class="fas fa-store"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="index.html" title="Voltar à página principal">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#about-us" title="Sobre Nós">Sobre Nós</a></li>
+            <li><a href="#" id="contactLink" title="Contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <p>Email: lojasyancriciuma@gmail.com</p>
+          <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp">
+            <p>Telefone: (48) 99199-1157</p>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Chrixtopher1. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Modal de Contacto -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3>Contacto</h3>
+      <p>Email: lojasyancriciuma@gmail.com</p>
+      <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp">
+        <p>Teléfono: (48) 99199-1157</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Modal de Sobre Nosotros -->
+  <div id="aboutModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Sobre Nós</h2>
+      <p>
+        Na <strong>Lojas Yan</strong>, começamos como um pequeno empreendimento familiar em 2015, com a missão de oferecer produtos eletrônicos de alta qualidade a preços acessíveis. O que começou como um sonho em uma pequena loja, hoje se transformou em uma referência em vendas de celulares, acessórios e produtos eletrônicos em nossa região.
+      </p>
+      <h3>Missão</h3>
+      <p>
+        Fornecer aos nossos clientes os melhores produtos eletrônicos e acessórios, com um atendimento excepcional e preços competitivos.
+      </p>
+      <h3>Visão</h3>
+      <p>
+        Ser a loja de referência em tecnologia e eletrônicos, reconhecida pela nossa qualidade, inovação e compromisso com a satisfação do cliente.
+      </p>
+      <h3>Por que Escolher a Lojas Yan?</h3>
+      <ul>
+        <li>Melhores marcas com o melhor preço.</li>
+        <li>Atendimento personalizado.</li>
+        <li>Garantia em todos os nossos produtos.</li>
+        <li>Entregas rápidas e seguras.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

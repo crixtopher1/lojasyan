@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lojas Yan</title>
+  <link rel="icon" type="image/x-icon" href="img/ico.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html" title="Voltar à página principal">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Lojas Yan</span>
+          </a>
+        </div>
+    
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Buscar produtos...">
+          <button id="search-button" aria-label="Buscar">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    
+      <nav class="main-nav">
+        <button class="menu-toggle" aria-label="Abrir menú">
+          <span class="hamburger"></span>
+        </button>
+        
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link">
+              <i class="fas fa-mobile-alt"></i> Celulares
+              <i class="fas fa-chevron-down dropdown-icon"></i>
+            </a>
+            <ul class="dropdown">
+              <li><a href="celularesnovo.html"><i class="fas fa-box-open"></i> Novos</a></li>
+              <li><a href="usados.html"><i class="fas fa-sync-alt"></i> Usados</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#" class="menu-link"><i class="fas fa-laptop"></i> Eletrônicos</a></li>
+          <li class="menu-item"><a href="#" class="menu-link"><i class="fas fa-headphones"></i> Acessórios</a></li>
+          <li class="menu-item"><a href="#" class="menu-link"><i class="fas fa-info-circle"></i> Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="products products-gallery products-with-watermark">
+        <div class="product-grid">
+          <!-- Xiaomi Poco X7 Pro 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/px1.jpeg" alt="Xiaomi Poco X7 Pro - Tela AMOLED de 6.67''" class="active" loading="lazy">
+                <img src="img/px2.jpeg" alt="Xiaomi Poco X7 Pro - Câmera tripla de 64MP" loading="lazy">
+                <img src="img/px3.jpeg" alt="Xiaomi Poco X7 Pro - Design fino e leve" loading="lazy">
+                <img src="img/px7.jpeg" alt="Xiaomi Poco X7 Pro - Design fino e leve" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Poco X7 Pro (256GB)</h3>
+            <p class="product-description">Tela 6.67" AMOLED 120Hz, Dimensity 7200-Ultra, 64MP + OIS, 256GB, carregamento rápido 67W</p>
+            <div class="product-rating" aria-label="Classificação: 4.6 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Poco M6 Pro 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/pm.jpeg" alt="Xiaomi Poco M6 Pro - Vista frontal" class="active" loading="lazy">
+                <img src="img/pm1.jpeg" alt="Xiaomi Poco M6 Pro - Vista traseira" loading="lazy">
+                <img src="img/pm2.jpeg" alt="Xiaomi Poco M6 Pro - Vista lateral" loading="lazy">
+                <img src="img/pm3.jpeg" alt="Xiaomi Poco M6 Pro - Vista lateral" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Poco M6 Pro (256GB)</h3>
+            <p class="product-description">Tela 6.67" FHD+ 120Hz, Snapdragon 4 Gen 2, câmera de 50MP, 256GB de armazenamento</p>
+            <div class="product-rating" aria-label="Classificação: 4.5 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Redmi 14C 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/r14.jpeg" alt="Xiaomi Redmi 14C 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/r141.jpeg" alt="Xiaomi Redmi 14C 256GB - Vista traseira" loading="lazy">
+                <img src="img/r142.jpeg" alt="Xiaomi Redmi 14C 256GB - Vista lateral" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Redmi 14C 256GB</h3>
+            <p class="product-description">Tela HD+ 6.71", Snapdragon 680, 256GB, Câmera de 50MP + 2MP</p>
+            <div class="product-rating" aria-label="Classificação: 4.6 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Redmi A3X 128GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/a3x1.jpeg" alt="Xiaomi Redmi A3X 128GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/a3x1.jpeg" alt="Xiaomi Redmi A3X 128GB - Vista traseira" loading="lazy">
+                <img src="img/a3x2.jpeg" alt="Xiaomi Redmi A3X 128GB - Vista lateral" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Redmi A3X 128GB</h3>
+            <p class="product-description">Tela HD+ 6.5", MediaTek Helio G36, 128GB, Câmera de 13MP + 2MP</p>
+            <div class="product-rating" aria-label="Classificação: 4.3 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Note 13 Pro 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/n13p.jpeg" alt="Xiaomi Note 13 Pro 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/n13p1.jpeg" alt="Xiaomi Note 13 Pro 256GB - Vista traseira" loading="lazy">
+                <img src="img" alt="Xiaomi Note 13 Pro 256GB - Vista lateral" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Note 13 Pro 256GB</h3>
+            <p class="product-description">Tela AMOLED 6.67" 120Hz, Snapdragon 7s Gen 2, 256GB, Câmera de 200MP</p>
+            <div class="product-rating" aria-label="Classificação: 4.8 estrelas">★★★★★</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Note 14 Pro 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/n14p.jpeg" alt="Xiaomi Note 14 Pro 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/n14p1.jpeg" alt="Xiaomi Note 14 Pro 256GB - Vista traseira" loading="lazy">
+                <img src="img/n14p2.jpeg" alt="Xiaomi Note 14 Pro 256GB - Vista lateral" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Note 14 Pro 256GB</h3>
+            <p class="product-description">Tela AMOLED 6.7" 144Hz, Snapdragon 8s Gen 3, 256GB, Câmera de 220MP</p>
+            <div class="product-rating" aria-label="Classificação: 4.9 estrelas">★★★★★</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Poco C75 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/pc7.jpeg" alt="Xiaomi Poco C75 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/pc71.jpeg" alt="Xiaomi Poco C75 256GB - Vista traseira" loading="lazy">
+                <img src="img/pc72.jpeg" alt="Xiaomi Poco C75 256GB - Vista lateral" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Poco C75 256GB</h3>
+            <p class="product-description">Tela FHD+ 6.79" 90Hz, MediaTek Helio G99, 256GB, Câmera de 108MP</p>
+            <div class="product-rating" aria-label="Classificação: 4.7 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Poco C65 -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/pc1.jpeg" alt="Xiaomi Poco C65 - Vista frontal" class="active" loading="lazy">
+                <img src="img/pc2.jpeg" alt="Xiaomi Poco C65 - Vista traseira" loading="lazy">
+                <img src="img/pc3.jpeg" alt="Xiaomi Poco C65 - Vista lateral" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Poco C65</h3>
+            <p class="product-description">Tela HD+ de 6.74", Processador MediaTek Helio G85, 128GB, Câmera de 50MP</p>
+            <div class="product-rating" aria-label="Classificação: 4.5 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Note 14 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/n14.jpeg" alt="Xiaomi Note 14 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/n141.jpeg" alt="Xiaomi Note 14 256GB - Vista frontal" loading="lazy">
+                <img src="img/n142.jpeg" alt="Xiaomi Note 14 256GB - Vista frontal" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Note 14 256GB</h3>
+            <p class="product-description">Tela AMOLED 6.67", Snapdragon 8 Gen 2, 256GB de armazenamento</p>
+            <div class="product-rating" aria-label="Classificação: 4.8 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Note 13 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/n13.jpeg" alt="Xiaomi Note 13 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/n131.jpeg" alt="Xiaomi Note 13 256GB - Vista frontal" loading="lazy">
+                <img src="img/n132.jpeg" alt="Xiaomi Note 13 256GB - Vista frontal" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Note 13 256GB</h3>
+            <p class="product-description">Tela AMOLED 6.6", MediaTek Dimensity, 256GB de armazenamento</p>
+            <div class="product-rating" aria-label="Classificação: 4.7 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi Poco X7 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/x7.jpeg" alt="Xiaomi Poco X7 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/x71.jpeg" alt="Xiaomi Poco X7 256GB - Vista frontal" loading="lazy">
+                <img src="img/x72.jpeg" alt="Xiaomi Poco X7 256GB - Vista frontal" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi Poco X7 256GB</h3>
+            <p class="product-description">Tela AMOLED 6.8", Snapdragon 7+ Gen 2, 256GB de armazenamento</p>
+            <div class="product-rating" aria-label="Classificação: 4.7 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- Xiaomi A3 256GB -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/a3.jpg" alt="Xiaomi A3 256GB - Vista frontal" class="active" loading="lazy">
+                <img src="img/a31.jpg" alt="Xiaomi A3 256GB - Vista frontal" loading="lazy">
+                <img src="img/a32.jpg" alt="Xiaomi A3 256GB - Vista frontal" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>Xiaomi A3 256GB</h3>
+            <p class="product-description">Tela LCD 6.5", MediaTek Helio G99, 256GB de armazenamento</p>
+            <div class="product-rating" aria-label="Classificação: 4.6 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- iPhone 16 Pro Max -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/16pm3.jpeg" alt="iPhone 16 Pro Max - Vista frontal" class="active">
+                <img src="img/16pm.jpg" alt="iPhone 16 Pro Max - Vista traseira">
+                <img src="img/16pm1.jpeg" alt="iPhone 16 Pro Max - Vista lateral">
+                <img src="img/16pm2.jpeg" alt="iPhone 16 Pro Max - Vista lateral">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>iPhone 16 Pro Max</h3>
+            <p class="product-description">Tela 6.7" Super Retina XDR, A18 Pro, câmera tripla de 48MP, até 1TB</p>
+            <div class="product-rating">★★★★★</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- iPhone 16 -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/16.jpeg" alt="iPhone 16 - Vista frontal em azul" class="active" loading="lazy">
+                <img src="img/161.jpeg" alt="iPhone 16 - Vista traseira com câmera aprimorada" loading="lazy">
+                <img src="img/162.jpeg" alt="iPhone 16 - Vista lateral com design aerodinâmico" loading="lazy">
+                <img src="img/163.jpeg" alt="iPhone 16 - Detalhe do sistema de câmeras" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>iPhone 16</h3>
+            <p class="product-description">Tela 6.3" Super Retina XDR, A18 Bionic, 48MP, até 1TB</p>
+            <div class="product-rating" aria-label="Classificação: 5 estrelas">★★★★★</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- iPhone 15 Pro Max -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/15pm3.jpeg" alt="iPhone 15 Pro Max - Vista frontal" class="active" loading="lazy">
+                <img src="img/15pm.jpeg" alt="iPhone 15 Pro Max - Vista traseira" loading="lazy">
+                <img src="img/15pm1.jpeg" alt="iPhone 15 Pro Max - Vista lateral" loading="lazy">
+                <img src="img/15pm2.jpeg" alt="iPhone 15 Pro Max - Detalhe da câmera" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>iPhone 15 Pro Max</h3>
+            <p class="product-description">Tela Super Retina XDR de 6.7", Chip A17 Pro, 256GB/512GB/1TB, IP68.</p>
+            <div class="product-rating" aria-label="5 estrelas">★★★★★</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- iPhone 15 -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/15.jpeg" alt="iPhone 15 - Vista frontal em preto" class="active" loading="lazy">
+                <img src="img/151.jpeg" alt="iPhone 15 - Vista traseira com câmera dual" loading="lazy">
+                <img src="img/152.jpeg" alt="iPhone 15 - Vista lateral com alumínio aeroespacial" loading="lazy">
+                <img src="img/153.jpeg" alt="iPhone 15 - Sistema de câmera de 48MP" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>iPhone 15</h3>
+            <p class="product-description">Tela 6.1" Super Retina XDR, A16 Bionic, 48MP, até 512GB</p>
+            <div class="product-rating" aria-label="Classificação: 4.8 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- iPhone 14 -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/14.jpeg" alt="iPhone 14 - Vista frontal em preto" class="active" loading="lazy">
+                <img src="img/141.jpeg" alt="iPhone 14 - Vista traseira com câmera dual" loading="lazy">
+                <img src="img/142.jpeg" alt="iPhone 14 - Vista lateral com alumínio aeroespacial" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>iPhone 14</h3>
+            <p class="product-description">Tela 6.1" Super Retina XDR, A15 Bionic, câmera dual de 12MP, até 512GB</p>
+            <div class="product-rating" aria-label="Classificação: 4.7 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- iPhone 13 -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/13.jpeg" alt="iPhone 13 - Vista frontal em preto" class="active" loading="lazy">
+                <img src="img/131.jpeg" alt="iPhone 13 - Vista traseira com câmera dual" loading="lazy">
+                <img src="img/132.jpeg" alt="iPhone 13 - Vista lateral com alumínio aeroespacial" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>iPhone 13</h3>
+            <p class="product-description">Tela 6.1" Super Retina XDR, A15 Bionic, câmera dual de 12MP, até 512GB</p>
+            <div class="product-rating" aria-label="Classificação: 4.7 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+
+          <!-- iPhone 12 -->
+          <div class="product-card">
+            <div class="product-gallery">
+              <div class="gallery-images">
+                <img src="img/12.jpeg" alt="iPhone 12 - Vista frontal em preto" class="active" loading="lazy">
+                <img src="img/121.jpeg" alt="iPhone 12 - Vista traseira com câmera dual" loading="lazy">
+                <img src="img/122.jpeg" alt="iPhone 12 - Vista lateral com alumínio aeroespacial" loading="lazy">
+                <img src="img/123.jpeg" alt="iPhone 12 - Vista lateral com alumínio aeroespacial" loading="lazy">
+                <img src="img/124.jpeg" alt="iPhone 12 - Vista lateral com alumínio aeroespacial" loading="lazy">
+              </div>
+              <div class="gallery-dots"></div>
+            </div>
+            <h3>iPhone 12</h3>
+            <p class="product-description">Tela 6.1" Super Retina XDR, A14 Bionic, câmera dual de 12MP, até 256GB</p>
+            <div class="product-rating" aria-label="Classificação: 4.6 estrelas">★★★★☆</div>
+            <p class="product-price">Solicitar cotação</p>
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp" class="add-to-cart">Aqui</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Siga-nos nas redes sociais</h3>
+          <div class="social-icons">
+            <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/share/12JcG8d8MA1/" target="_blank" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/lojasyan/" target="_blank" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.mercadolivre.com.br/pagina/yaneletroeletronicos?item_id=MLB3994854695&category_id=MLB12953&seller_id=2264068678&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=eshop" target="_blank" title="MercadoLivre">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="https://shopee.com.br/yan_eletroeletronicos?categoryId=100013&entryPoint=ShopByPDP&itemId=22597977463" target="_blank" title="Shopee">
+              <i class="fas fa-store"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="index.html" title="Voltar à página principal">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#about-us" title="Sobre Nós">Sobre Nós</a></li>
+            <li><a href="#" id="contactLink" title="Contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <p>Email: lojasyancriciuma@gmail.com</p>
+          <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp">
+            <p>Telefone: (48) 99199-1157</p>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Chrixtopher1. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Modal de Contato -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3>Contato</h3>
+      <p>Email: lojasyancriciuma@gmail.com</p>
+      <a href="https://wa.link/a1lekl" target="_blank" title="WhatsApp">
+        <p>Telefone: (48) 99199-1157</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Modal de Sobre Nós -->
+  <div id="aboutModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Sobre Nós</h2>
+      <p>
+        Na <strong>Lojas Yan</strong>, começamos como um pequeno empreendimento familiar em 2015, com a missão de oferecer produtos eletrônicos de alta qualidade a preços acessíveis. O que começou como um sonho em uma pequena loja, hoje se transformou em uma referência em vendas de celulares, acessórios e produtos eletrônicos em nossa região.
+      </p>
+      <h3>Missão</h3>
+      <p>
+        Fornecer aos nossos clientes os melhores produtos eletrônicos e acessórios, com um atendimento excepcional e preços competitivos.
+      </p>
+      <h3>Visão</h3>
+      <p>
+        Ser a loja de referência em tecnologia e eletrônicos, reconhecida pela nossa qualidade, inovação e compromisso com a satisfação do cliente.
+      </p>
+      <h3>Por que Escolher a Lojas Yan?</h3>
+      <ul>
+        <li>Melhores marcas com o melhor preço.</li>
+        <li>Atendimento personalizado.</li>
+        <li>Garantia em todos os nossos produtos.</li>
+        <li>Entregas rápidas e seguras.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
