@@ -320,3 +320,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+// Modal de Revenda Xiaomi
+const xiaomiModal = document.getElementById('xiaomiModal');
+const closeXiaomiModal = xiaomiModal ? xiaomiModal.querySelector('.close-modal') : null;
+
+// Mostrar modal al cargar la página
+window.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    if (xiaomiModal) {
+      xiaomiModal.style.display = 'block';
+    }
+  }, 1000); // Mostrar después de 1 segundo
+});
+
+// Cerrar el modal cuando se hace clic en la "X"
+if (closeXiaomiModal) {
+  closeXiaomiModal.addEventListener('click', () => {
+    xiaomiModal.style.display = 'none';
+  });
+}
+
+// Cerrar el modal si se hace clic fuera del contenido
+window.addEventListener('click', (e) => {
+  if (e.target === xiaomiModal) {
+    xiaomiModal.style.display = 'none';
+  }
+});
